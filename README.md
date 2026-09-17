@@ -76,6 +76,19 @@ Additional information about the project can be found in:
 
 **Documentation.pdf**
 
+## Results
+
+The models were evaluated on the IMDb test dataset.
+
+| Model | Test Accuracy |
+| ----- | ------------- |
+| RNN   | 57.48%        |
+| LSTM  | 87.97%        |
+
+### Comparison
+
+Both models were trained and evaluated using the same dataset and hyperparameters. The **LSTM model achieved higher test accuracy (87.97%) than the RNN model (57.48%)**, with a difference of **30.49 percentage points**. Therefore, in this experiment, the LSTM model performed better than the RNN model for sentiment classification.
+
 ## Notes
 
 The IMDb dataset is not included in this repository due to its size.
